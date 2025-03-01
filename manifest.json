@@ -9,10 +9,17 @@
   "editorType": [
     "figma"
   ],
+  "menu": [
+    { "name": "Generate Gradient", "command": "generate" }
+  ],
   "ui": "ui.html",
   "networkAccess": {
     "allowedDomains": [
-      "none"
+      "https://accounts.google.com",
+      "https://www.googleapis.com",
+      "https://oauth2.googleapis.com",
+      "https://*.googleusercontent.com",
+      "https://www.figma.com"
     ]
   }
 }
